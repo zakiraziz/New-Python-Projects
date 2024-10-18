@@ -9,7 +9,7 @@ def get_amount():
       print('Invalid amount')
 
 def get_currency(label):
-  currencies = ('USD', 'EUR', 'CAD')
+  currencies = ('USD', 'EUR', 'CAD') 
   while True:
     currency = input(f'{label} currency (USD/EUR/CAD): ').upper()
     if currency not in currencies:
