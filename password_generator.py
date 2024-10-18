@@ -12,7 +12,7 @@ def generate_password(length, include_uppercase, include_numbers, include_specia
   if include_numbers:
     password += random.choice(string.digits)
   if include_special:
-    password += random.choice(string.punctuation)
+    password += random.choice(string.punctuation) 
 
   # Fill the remaining length with any allowed characters
   characters = string.ascii_lowercase
