@@ -4,7 +4,7 @@ class ATM:
 
   def check_balance(self):
     return self.balance
- 
+  
   def deposit(self, amount):
     if amount <= 0:
       raise ValueError('Deposit amount must be positive.')
