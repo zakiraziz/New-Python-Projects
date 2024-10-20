@@ -6,7 +6,7 @@
     return self.balance
     
   def deposit(self, amount): 
-    if amount <= 0:
+    if amount <= 0: 
       raise ValueError('Deposit amount must be positive.') 
     
     self.balance += amount
