@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def get_amount():
   while True:
     try:
@@ -41,7 +41,7 @@ def main():
 
 if __name__ == "__main__":
   main()
-=======
+
 def get_amount():
   while True:
     try:
@@ -84,4 +84,4 @@ def main():
 
 if __name__ == "__main__":
   main()
->>>>>>> 9d801e6 (project)
+

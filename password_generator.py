@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import string 
 import random
 
@@ -46,7 +46,7 @@ def main():
 
 if __name__ == '__main__':
   main()
-=======
+
 import string 
 import random
 
@@ -94,4 +94,4 @@ def main():
 
 if __name__ == '__main__':
   main()
->>>>>>> 9d801e6 (project)
+
