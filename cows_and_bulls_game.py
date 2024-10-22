@@ -4,7 +4,7 @@ def generate_secret():
   digits = list(range(10))
   random.shuffle(digits) 
   return ''.join([str(digit) for digit in digits[:4]]) 
-    
+     
  
 def calculate_cows_and_bulls(secret, guess):
   bulls = sum([1 for i in range(4) if guess[i] == secret[i]])
