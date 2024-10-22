@@ -1,4 +1,4 @@
-import random
+ import random
 
 def generate_secret():
   digits = list(range(10))
