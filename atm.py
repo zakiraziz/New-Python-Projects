@@ -1,10 +1,10 @@
- class ATM:
+   class ATM:
   def __init__(self):
     self.balance = 0
 
-  def check_balance(self):
-    return self.balance
-    
+  def check_balance(self): 
+    return self.balance 
+     
   def deposit(self, amount): 
     if amount <= 0: 
       raise ValueError('Deposit amount must be positive.') 
