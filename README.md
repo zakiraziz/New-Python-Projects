@@ -58,3 +58,46 @@ Contributing
 Feel free to contribute to this project by submitting issues or pull requests!
 
 
+Cows and Bulls Game
+This project is a Python implementation of the classic Cows and Bulls game. The game generates a random 4-digit number with unique digits, and the player attempts to guess the number. After each guess, the program provides feedback in the form of "cows" and "bulls."
+
+Game Rules
+Bulls: A "bull" means one of the guessed digits is correct and in the correct position.
+Cows: A "cow" means one of the guessed digits is correct but in the wrong position.
+The player wins when they guess the exact 4-digit number.
+How It Works
+The program generates a 4-digit secret number with unique digits.
+The player enters a 4-digit guess with unique digits.
+After each guess, the program shows the number of cows and bulls to guide the player.
+The game continues until the player guesses the correct number (i.e., 4 bulls).
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/zakiraziz/cows-and-bulls-game.git
+cd cows-and-bulls-game
+Run the game:
+
+bash
+Copy code
+python cows_and_bulls.py
+Code Overview
+generate_secret(): Generates a random 4-digit number with unique digits.
+calculate_cows_and_bulls(secret, guess): Compares the secret number to the player's guess and returns the number of cows and bulls.
+main(): Runs the game loop, checking guesses and providing feedback.
+Example
+python
+Copy code
+Guess: 1234
+1 cows, 2 bulls
+In this example, one digit is correct but in the wrong position (1 cow), and two digits are correct and in the correct position (2 bulls).
+
+Future Improvements
+Adding a limit on the number of guesses.
+Implementing a scoring system based on the number of guesses.
+Adding difficulty levels with different lengths for the secret number.
+Contributing
+Feel free to fork this repository and submit pull requests if you'd like to improve the game!
+
+
