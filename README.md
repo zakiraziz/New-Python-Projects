@@ -96,6 +96,52 @@ In this example, one digit is correct but in the wrong position (1 cow), and two
 Future Improvements
 Adding a limit on the number of guesses.
 Implementing a scoring system based on the number of guesses.
+
+Currency Converter
+This project is a simple Python-based currency converter that allows users to convert between USD, EUR, and CAD using predefined exchange rates. The program prompts users to enter an amount, specify the source currency, and select the target currency, then calculates and displays the converted amount.
+
+Features
+Currency Conversion: Convert an amount between USD, EUR, and CAD.
+User Validation: Ensures valid inputs for amount and currency selection.
+Predefined Exchange Rates: Uses fixed exchange rates for conversion.
+Supported Currencies
+USD - United States Dollar
+EUR - Euro
+CAD - Canadian Dollar
+How It Works
+The user enters an amount to convert.
+The user selects the source currency (USD, EUR, CAD).
+The user selects the target currency (USD, EUR, CAD).
+The program calculates the converted amount and displays the result.
+Code Overview
+get_amount(): Prompts the user to enter a valid amount greater than zero.
+get_currency(label): Prompts the user to enter a valid currency code (USD, EUR, or CAD).
+convert(amount, source_currency, target_currency): Converts the amount based on the source and target currencies using predefined exchange rates.
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/zakiraziz/currency-converter.git
+cd currency-converter
+Run the converter:
+
+bash
+Copy code
+python currency_converter.py
+Example
+plaintext
+Copy code
+Enter the amount: 100
+Source currency (USD/EUR/CAD): USD
+Target currency (USD/EUR/CAD): EUR
+100 USD is equal to 85.00 EUR
+Future Improvements
+Add support for more currencies.
+Implement real-time exchange rates using an API.
+Include error handling for invalid currency conversions.
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
 Adding difficulty levels with different lengths for the secret number.
 Contributing
 Feel free to fork this repository and submit pull requests if you'd like to improve the game!
