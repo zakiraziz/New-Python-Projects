@@ -1,4 +1,4 @@
- import random
+import random
 
 ROCK = 'r'
 SCISSORS = 's'
