@@ -1,11 +1,11 @@
-
+ 
 ATM Simulator
-This project is a command-line ATM (Automated Teller Machine) simulator in Python. It provides basic banking functionalities such as checking balance, depositing funds, and withdrawing funds, along with a simple, user-friendly menu system.
+This project is a command-line ATM (Automated Teller Machine) simulator in Python. It provides basic banking functionalities such as checking balance, depositing funds, and withdrawing funds, along with a simple, user-friendly menu syste m.
 
 Features
 Check Balance: View your current balance in the account.
 Deposit Funds: Add money to your account.
-Withdraw Funds: Withdraw money from your account (with checks for sufficient funds). 
+Withdraw Funds: Withdraw money from your account (with checks for sufficient funds).  
 Exit: End the session.
 Class Structure
 ATM Class: Handles account balance and provides methods for balance check, deposit, and withdrawal.
