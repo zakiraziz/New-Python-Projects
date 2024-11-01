@@ -2,7 +2,7 @@
   def __init__(self):
     self.balance = 0 
    
-  def check_balance(self):   
+  def check_balance(self):    
     return self.balance  
        
   def deposit(self, amount):  
