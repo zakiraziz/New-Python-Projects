@@ -3,7 +3,7 @@
     self.balance = 0 
    
   def check_balance(self):   
-    return self.balance 
+    return self.balance  
       
   def deposit(self, amount):  
     if amount <= 0: 
