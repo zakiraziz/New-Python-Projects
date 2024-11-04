@@ -2,7 +2,7 @@
 import sys
 from PySide6.QtCore import Qt, Slot
 from PySide6.QtGui import QAction , QPainter
-from PySide6.QtWidgets import (QApplication, QHeaderView, QHBoxLayout, QLabel, QLineEdit, 
+from PySide6.QtWidgets import (QApplication, QHeaderView, QHBoxLayout, QLabel, QLineEdit,  
                                QMainWindow, QPushButton, QTableWidget, QTableWidgetItem, QVBoxLayout,  
                                QWidget)
 from PySide6.QtCharts import QChartView, QPieSeries, QChart
