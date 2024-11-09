@@ -3,7 +3,7 @@ from pygame.locals import *
 import sys
 
 # Initialize pygame
-pg.init()
+pg.init() 
 
 # Constants 
 vec = pg.math.Vector2
