@@ -5,7 +5,7 @@ import sys
 # Initialize pygame
 pg.init()
 
-# Constants
+# Constants 
 vec = pg.math.Vector2
 FPS = 60
 FIELD_COLOR = (48, 39, 32)
