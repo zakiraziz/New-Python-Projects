@@ -3,9 +3,15 @@ from pygame.locals import *
 import sys
 
 # Initialize pygame
+<<<<<<< HEAD
 pg.init()
 
 # Constants
+=======
+pg.init() 
+
+# Constants 
+>>>>>>> ff6a00870cf8eeb4f6c41b7ef2481c8bc2baa305
 vec = pg.math.Vector2
 FPS = 60
 FIELD_COLOR = (48, 39, 32)
