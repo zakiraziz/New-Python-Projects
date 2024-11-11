@@ -1,4 +1,4 @@
- # Add dependencies
+# Add dependencies
 import sys
 from PySide6.QtCore import Qt, Slot
 from PySide6.QtGui import QAction , QPainter
