@@ -1,4 +1,4 @@
-      class ATM:
+       class ATM:
   def __init__(self):
     self.balance = 0 
    
