@@ -23,7 +23,7 @@ bash
 Copy code
 python atm.py
 How to Use
-After starting the program, you'll see a welcome message and a list of options.
+After starting the program, you'll see a welcome message and a list of options. 
 Select an option by entering the corresponding number.
 Follow the prompts for deposit or withdrawal actions.
 To exit, select the "Exit" option.
